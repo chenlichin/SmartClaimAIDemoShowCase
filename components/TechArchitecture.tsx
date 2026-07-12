@@ -140,7 +140,7 @@ export const TechArchitecture: React.FC = () => {
                                                 <div className={`w-20 h-20 rounded-2xl border-2 flex items-center justify-center mb-8 transition-colors duration-300 ${isActive ? 'bg-brand-500 text-white border-brand-400' : 'bg-gray-900 border-brand-500/30 text-brand-400'}`}>
                                                     <layer.icon size={40} />
                                                 </div>
-                                                <h3 className={`text-3xl font-bold mb-5 transition-colors duration-300 ${isActive ? 'text-white' : 'text-gray-300'}`}>{layer.title}</h3>
+                                                <h3 className={`text-3xl font-bold mb-5 transition-colors duration-300 whitespace-nowrap ${isActive ? 'text-white' : 'text-gray-300'}`}>{layer.title}</h3>
                                                 <p className="text-gray-400 text-xl leading-relaxed whitespace-pre-line">{layer.desc}</p>
                                             </div>
                                             
@@ -268,7 +268,7 @@ export const TechArchitecture: React.FC = () => {
                                             <input.icon size={30} />
                                         </div>
                                         <div className="flex-1">
-                                            <div className={`text-xl font-bold mb-1 transition-colors duration-500 ${themeColor}`}>{input.title}</div>
+                                            <div className={`text-xl font-bold mb-1 transition-colors duration-500 whitespace-nowrap ${themeColor}`}>{input.title}</div>
                                             <div className="text-sm text-gray-500 font-mono">{input.desc}</div>
                                         </div>
                                         
@@ -316,7 +316,7 @@ export const TechArchitecture: React.FC = () => {
                                     </p>
                                     
                                     <div className="w-full bg-gray-700/50 rounded-full h-5 mb-5 overflow-hidden">
-                                        <div className={`h-full transition-all duration-500 w-[${isHigh ? '98%' : '45%'}] ${glowColor}`}></div>
+                                        <div className={`h-full transition-all duration-500 ${glowColor}`} style={{ width: isHigh ? '98%' : '45%' }}></div>
                                     </div>
                                     <div className="flex justify-between w-full text-lg font-mono text-gray-400">
                                         <span>Threshold</span>

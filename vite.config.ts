@@ -1,12 +1,12 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import { viteSingleFile } from "vite-plugin-singlefile"
+import tailwindcss from '@tailwindcss/vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
     react(),
-    viteSingleFile() // 啟用單一檔案打包插件
+    tailwindcss()
   ],
   base: './', // 保持相對路徑
   build: {

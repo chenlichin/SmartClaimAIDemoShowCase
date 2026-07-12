@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+  console.log("fetch descriptor on window:", Object.getOwnPropertyDescriptor(window, 'fetch'));
+  console.log("fetch descriptor on window prototype:", Object.getOwnPropertyDescriptor(Object.getPrototypeOf(window), 'fetch'));
+  console.log("fetch descriptor on window object prototype:", Object.getOwnPropertyDescriptor(window.__proto__, 'fetch'));
+</script>
+</body>
+</html>

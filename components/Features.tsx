@@ -65,7 +65,7 @@ export const Features: React.FC = () => {
                                     `}>
                                         <feature.icon size={40} />
                                     </div>
-                                    <h3 className={`text-3xl font-bold mb-6 transition-colors duration-500 ${isActive ? 'text-gray-900' : 'text-gray-700'}`}>
+                                    <h3 className={`text-3xl font-bold mb-6 transition-colors duration-500 whitespace-nowrap ${isActive ? 'text-gray-900' : 'text-gray-700'}`}>
                                         {feature.title}
                                     </h3>
                                     <p className="text-xl text-gray-600 leading-relaxed">
