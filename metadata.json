@@ -1,5 +1,6 @@
 {
   "name": "SmartClaim AI Showcase",
   "description": "A product showcase website for the SmartClaim AI Report Generator, featuring interactive demos and technical architecture visualization.",
-  "requestFramePermissions": []
+  "requestFramePermissions": [],
+  "majorCapabilities": []
 }
