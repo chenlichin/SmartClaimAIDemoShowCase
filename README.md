@@ -1,5 +1,7 @@
 # SmartClaim AI Demo Showcase
 
+<img width="731" height="434" alt="image" src="https://github.com/user-attachments/assets/c9868c64-6a52-4014-9dbc-be3a3433ab59" />
+
 SmartClaim AI 是一個以產險理賠作業為情境設計的生成式 AI 專案，聚焦於理賠結案報告生成、資料比對、內容檢核與品質評估。
 
 *本專案透過互動式前端模擬 AI 如何將分散的理賠案件資訊，轉換為結構完整、可追溯且便於人工覆核的結案報告。
@@ -91,7 +93,7 @@ SmartClaim AI 將報告生成流程拆分為四個階段：
 
 ## 展示頁面操作流程
 
-1. 進入 SmartClaim AI 展示頁面
+1. 進入 SmartClaim AI 展示頁面 (https://smartclaim-ai-showcase.ai.studio)
 2. 點擊「生成結案報告」
 3. 系統模擬 AI 生成完整報告
 4. 生成完成後，自動開啟理賠資料比對面板
